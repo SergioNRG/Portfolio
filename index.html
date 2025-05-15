@@ -1133,48 +1133,50 @@
 
 
 
-      <!--
-        - #CONTACT
-      -->
+     <!-- #CONTACT -->
 
-      <article class="contact" data-page="contact">
+<article class="contact" data-page="contact">
 
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
 
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49339.936685484565!2d-9.478528859998171!3d39.3846246755898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1f45c49805a145%3A0x26caf596a0956bf3!2sPeniche!5e0!3m2!1spt-PT!2spt!4v1747323740983!5m2!1spt-PT!2spt"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
+  <section class="mapbox" data-mapbox>
+    <figure>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49339.936685484565!2d-9.478528859998171!3d39.3846246755898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1f45c49805a145%3A0x26caf596a0956bf3!2sPeniche!5e0!3m2!1spt-PT!2spt!4v1747323740983!5m2!1spt-PT!2spt"
+        width="400" height="300" loading="lazy"></iframe>
+    </figure>
+  </section>
 
-        <section class="contact-form">
+  <section class="contact-form">
 
-          <h3 class="h3 form-title">Contact Form</h3>
+    <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+    <form action="https://formsubmit.co/sergio_graca_86@hotmail" method="POST" class="form" data-form>
+      <!-- FormSubmit Hidden Fields -->
+      <input type="hidden" name="_subject" value="Novo contato via Portfolio">
+      <input type="hidden" name="_captcha" value="false">
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+      <div class="input-wrapper">
+        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
+        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+      </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+      <button class="form-btn" type="submit">
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
 
-          </form>
+    </form>
 
-        </section>
+  </section>
 
-      </article>
+</article>
+
 
     </div>
 
